@@ -1,0 +1,146 @@
+Results	Entity	Line	Column	CheckID	Check Name	Ignored	Note	Severity
+Number of Results: 140								
+  /Users/simonecappabianca/Desktop/INGEGNERIA DEL SOFTWARE/01 - Course presentation and exam modalities/running project - sw-20240623/Axle_Counter.c								
+    Identifier is typographically ambiguous to STATUS	status	13	20	MISRA12_DIR_4.5	Directive 4.5 Identifiers in the same name space with overlapping visibility should be typographically unambiguous			
+    a function declaration without a prototype is deprecated in all versions of C		14	14	MISRA12_8.2	8.2 Use Named Paramters and Prototype Form			
+    a function declaration without a prototype is deprecated in all versions of C		36	30	MISRA12_8.2	8.2 Use Named Paramters and Prototype Form			
+    a function declaration without a prototype is deprecated in all versions of C		44	31	MISRA12_8.2	8.2 Use Named Paramters and Prototype Form			
+    a function declaration without a prototype is deprecated in all versions of C		71	6	MISRA12_8.2	8.2 Use Named Paramters and Prototype Form			
+    a function declaration without a prototype is deprecated in all versions of C		72	6	MISRA12_8.2	8.2 Use Named Paramters and Prototype Form			
+    a function declaration without a prototype is deprecated in all versions of C		73	6	MISRA12_8.2	8.2 Use Named Paramters and Prototype Form			
+    a function declaration without a prototype is deprecated in all versions of C		75	6	MISRA12_8.2	8.2 Use Named Paramters and Prototype Form			
+    a function declaration without a prototype is deprecated in all versions of C		76	6	MISRA12_8.2	8.2 Use Named Paramters and Prototype Form			
+    a function declaration without a prototype is deprecated in all versions of C		77	6	MISRA12_8.2	8.2 Use Named Paramters and Prototype Form			
+    a function declaration without a prototype is deprecated in all versions of C		78	6	MISRA12_8.2	8.2 Use Named Paramters and Prototype Form			
+    a function declaration without a prototype is deprecated in all versions of C		80	20	MISRA12_8.2	8.2 Use Named Paramters and Prototype Form			
+    Improper '--' declaration.		45	28	MISRA12_13.3	13.3 A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator			
+    Multiple exit points from function	second_axle_counter_pushed	44	5	MISRA12_15.5	15.5 A function should have a single point of exit at the end			
+    Multiple exit points from function	this_is_not_used	80	4	MISRA12_15.5	15.5 A function should have a single point of exit at the end			
+    Iteration-statement or selection-statement not a compound-statement	this_is_not_used	81	8	MISRA12_15.6	15.6 The body of an iteration-statement or a selection-statement shall be a compound-statement         			
+    Iteration-statement or selection-statement not a compound-statement	this_is_not_used	86	24	MISRA12_15.6	15.6 The body of an iteration-statement or a selection-statement shall be a compound-statement         			
+    Iteration-statement or selection-statement not a compound-statement	this_is_not_used	88	24	MISRA12_15.6	15.6 The body of an iteration-statement or a selection-statement shall be a compound-statement         			
+    Iteration-statement or selection-statement not a compound-statement	this_is_not_used	95	24	MISRA12_15.6	15.6 The body of an iteration-statement or a selection-statement shall be a compound-statement         			
+    Iteration-statement or selection-statement not a compound-statement	this_is_not_used	97	24	MISRA12_15.6	15.6 The body of an iteration-statement or a selection-statement shall be a compound-statement         			
+    Iteration-statement or selection-statement not a compound-statement	this_is_not_used	103	24	MISRA12_15.6	15.6 The body of an iteration-statement or a selection-statement shall be a compound-statement         			
+    Iteration-statement or selection-statement not a compound-statement	this_is_not_used	105	24	MISRA12_15.6	15.6 The body of an iteration-statement or a selection-statement shall be a compound-statement         			
+    Iteration-statement or selection-statement not a compound-statement	this_is_not_used	107	24	MISRA12_15.6	15.6 The body of an iteration-statement or a selection-statement shall be a compound-statement         			
+    Iteration-statement or selection-statement not a compound-statement	this_is_not_used	114	24	MISRA12_15.6	15.6 The body of an iteration-statement or a selection-statement shall be a compound-statement         			
+    Iteration-statement or selection-statement not a compound-statement	this_is_not_used	116	24	MISRA12_15.6	15.6 The body of an iteration-statement or a selection-statement shall be a compound-statement         			
+    Iteration-statement or selection-statement not a compound-statement	this_is_not_used	118	24	MISRA12_15.6	15.6 The body of an iteration-statement or a selection-statement shall be a compound-statement         			
+    Else If with no following Else	Axle_Counter.c	121	8	MISRA12_15.7	15.7 All if ... else if constructs shall be terminated with an else statement			
+    The value returned by a function having non-void return type was not used	printf	29	8	MISRA12_17.7	17.7 The value returned by a function having non-void return type shall be used			
+    The value returned by a function having non-void return type was not used	printf	30	8	MISRA12_17.7	17.7 The value returned by a function having non-void return type shall be used			
+    The value returned by a function having non-void return type was not used	f1	82	16	MISRA12_17.7	17.7 The value returned by a function having non-void return type shall be used			
+    The value returned by a function having non-void return type was not used	f2	84	16	MISRA12_17.7	17.7 The value returned by a function having non-void return type shall be used			
+    The value returned by a function having non-void return type was not used	f1	93	16	MISRA12_17.7	17.7 The value returned by a function having non-void return type shall be used			
+    The value returned by a function having non-void return type was not used	f3	104	32	MISRA12_17.7	17.7 The value returned by a function having non-void return type shall be used			
+    The value returned by a function having non-void return type was not used	f4	108	32	MISRA12_17.7	17.7 The value returned by a function having non-void return type shall be used			
+    The value returned by a function having non-void return type was not used	f3	115	32	MISRA12_17.7	17.7 The value returned by a function having non-void return type shall be used			
+    The value returned by a function having non-void return type was not used	f4	119	32	MISRA12_17.7	17.7 The value returned by a function having non-void return type shall be used			
+    Parameter ptr is modified	check_status	21	8	MISRA12_17.8	17.8 A function parameter should not be modified			
+    Parameter sectionP is modified	init_Counter	68	8	MISRA12_17.8	17.8 A function parameter should not be modified			
+    time.h used 	Axle_Counter.h	2	0	MISRA12_21.10	21.10 The Standard Library time and date functions shall not be used			
+    Character sequence /* or // used in a comment		54	0	MISRA12_3.1	3.1 The character sequences /* and // shall not be used within a comment			
+    Identifier ""track_state"" possibly shadows identifier from line 61	track_state	63	20	MISRA12_5.3	5.3 Shadowed Identifiers			
+    Identifier ""track_state"" possibly shadows identifier from line 61	track_state	66	20	MISRA12_5.3	5.3 Shadowed Identifiers			
+    Object or function has external linkage but no visible declaration	STATUS	8	4	MISRA12_8.4	8.4 A compatible declaration shall be visible when an object or function with external linkage is defined			
+    Object or function has external linkage but no visible declaration	COUNTED_AXLES	9	4	MISRA12_8.4	8.4 A compatible declaration shall be visible when an object or function with external linkage is defined			
+    Object or function has external linkage but no visible declaration	c1	71	4	MISRA12_8.4	8.4 A compatible declaration shall be visible when an object or function with external linkage is defined			
+    Object or function has external linkage but no visible declaration	c2	72	4	MISRA12_8.4	8.4 A compatible declaration shall be visible when an object or function with external linkage is defined			
+    Object or function has external linkage but no visible declaration	c3	73	4	MISRA12_8.4	8.4 A compatible declaration shall be visible when an object or function with external linkage is defined			
+    Object or function has external linkage but no visible declaration	f1	75	4	MISRA12_8.4	8.4 A compatible declaration shall be visible when an object or function with external linkage is defined			
+    Object or function has external linkage but no visible declaration	f2	76	4	MISRA12_8.4	8.4 A compatible declaration shall be visible when an object or function with external linkage is defined			
+    Object or function has external linkage but no visible declaration	f3	77	4	MISRA12_8.4	8.4 A compatible declaration shall be visible when an object or function with external linkage is defined			
+    Object or function has external linkage but no visible declaration	f4	78	4	MISRA12_8.4	8.4 A compatible declaration shall be visible when an object or function with external linkage is defined			
+    Object or function has external linkage but no visible declaration	this_is_not_used	80	4	MISRA12_8.4	8.4 A compatible declaration shall be visible when an object or function with external linkage is defined			
+    STATUS has external linkage but is only used in the translation unit built from Axle_Counter.c, so the static keyword should be used.	STATUS	8	4	MISRA12_8.7	8.7 Functions and objects should not be defined with external linkage if they are referenced in only one translation unit			
+    COUNTED_AXLES has external linkage but is only used in the translation unit built from Axle_Counter.c, so the static keyword should be used.	COUNTED_AXLES	9	4	MISRA12_8.7	8.7 Functions and objects should not be defined with external linkage if they are referenced in only one translation unit			
+    printinfo has external linkage but is only used in the translation unit built from Axle_Counter.c, so the static keyword should be used.	printinfo	28	5	MISRA12_8.7	8.7 Functions and objects should not be defined with external linkage if they are referenced in only one translation unit			
+    init_Counter has external linkage but is only used in the translation unit built from Axle_Counter.c, so the static keyword should be used.	init_Counter	60	5	MISRA12_8.7	8.7 Functions and objects should not be defined with external linkage if they are referenced in only one translation unit			
+    c1 has external linkage but is only used in the translation unit built from Axle_Counter.c, so the static keyword should be used.	c1	71	4	MISRA12_8.7	8.7 Functions and objects should not be defined with external linkage if they are referenced in only one translation unit			
+    c2 has external linkage but is only used in the translation unit built from Axle_Counter.c, so the static keyword should be used.	c2	72	4	MISRA12_8.7	8.7 Functions and objects should not be defined with external linkage if they are referenced in only one translation unit			
+    c3 has external linkage but is only used in the translation unit built from Axle_Counter.c, so the static keyword should be used.	c3	73	4	MISRA12_8.7	8.7 Functions and objects should not be defined with external linkage if they are referenced in only one translation unit			
+    f1 has external linkage but is only used in the translation unit built from Axle_Counter.c, so the static keyword should be used.	f1	75	4	MISRA12_8.7	8.7 Functions and objects should not be defined with external linkage if they are referenced in only one translation unit			
+    f2 has external linkage but is only used in the translation unit built from Axle_Counter.c, so the static keyword should be used.	f2	76	4	MISRA12_8.7	8.7 Functions and objects should not be defined with external linkage if they are referenced in only one translation unit			
+    f3 has external linkage but is only used in the translation unit built from Axle_Counter.c, so the static keyword should be used.	f3	77	4	MISRA12_8.7	8.7 Functions and objects should not be defined with external linkage if they are referenced in only one translation unit			
+    f4 has external linkage but is only used in the translation unit built from Axle_Counter.c, so the static keyword should be used.	f4	78	4	MISRA12_8.7	8.7 Functions and objects should not be defined with external linkage if they are referenced in only one translation unit			
+    this_is_not_used has external linkage but is only used in the translation unit built from Axle_Counter.c, so the static keyword should be used.	this_is_not_used	80	4	MISRA12_8.7	8.7 Functions and objects should not be defined with external linkage if they are referenced in only one translation unit			
+    Basic numerical type ""int"" used	STATUS	8	4	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	COUNTED_AXLES	9	4	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	get_status	14	4	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	check_status	20	4	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	c1	71	4	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	c2	72	4	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	c3	73	4	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	f1	75	4	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	f2	76	4	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	f3	77	4	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	f4	78	4	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	this_is_not_used	80	4	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used in ""int *""	ptr	20	22	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	counted_axles	22	12	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	sectionP	60	22	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	track_state	61	12	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	track_state	63	20	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	track_state	66	20	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used in ""int *""	status	13	20	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	counted_axles	13	32	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used in ""int *""	status	28	20	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	counted_axles	28	32	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+  /Users/simonecappabianca/Desktop/INGEGNERIA DEL SOFTWARE/01 - Course presentation and exam modalities/running project - sw-20240623/Axle_Counter.h								
+    a function declaration without a prototype is deprecated in all versions of C		9	30	MISRA12_8.2	8.2 Use Named Paramters and Prototype Form			
+    a function declaration without a prototype is deprecated in all versions of C		10	31	MISRA12_8.2	8.2 Use Named Paramters and Prototype Form			
+    Include guards not used in file		2	1	MISRA12_DIR_4.10	Directive 4.10 Precautions shall be taken in order to prevent the contents of a header file being included more than once			
+    Basic numerical type ""int"" used	axle_Counter	5	4	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	check_status	8	4	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""double"" used	testFunction	12	7	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	sectionP	5	21	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	total_wagons	5	35	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used in ""int *""	ptr	8	22	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	sectionP	6	23	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""double"" used	[unnamed]	12	26	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+  /Users/simonecappabianca/Desktop/INGEGNERIA DEL SOFTWARE/01 - Course presentation and exam modalities/running project - sw-20240623/Train_Movement.c								
+    Identifier is typographically ambiguous to check_status	checkStatus	14	4	MISRA12_DIR_4.5	Directive 4.5 Identifiers in the same name space with overlapping visibility should be typographically unambiguous			
+    code will never be executed		66	6	MISRA12_2.1	2.1 A project shall not contain unreachable code			
+    Pointer to void converted to another pointer type.	ptr	24	25	MISRA12_11.5	11.5 A conversion should not be performed from pointer to void into pointer to object			
+    Multiple exit points from function	main	23	4	MISRA12_15.5	15.5 A function should have a single point of exit at the end			
+    Multiple exit points from function	train_arrives	61	5	MISRA12_15.5	15.5 A function should have a single point of exit at the end			
+    Iteration-statement or selection-statement not a compound-statement	train_arrives	66	16	MISRA12_15.6	15.6 The body of an iteration-statement or a selection-statement shall be a compound-statement         			
+    Iteration-statement or selection-statement not a compound-statement	train_arrives	69	8	MISRA12_15.6	15.6 The body of an iteration-statement or a selection-statement shall be a compound-statement         			
+    Iteration-statement or selection-statement not a compound-statement	train_leaves	78	8	MISRA12_15.6	15.6 The body of an iteration-statement or a selection-statement shall be a compound-statement         			
+    The value returned by a function having non-void return type was not used	printf	26	16	MISRA12_17.7	17.7 The value returned by a function having non-void return type shall be used			
+    The value returned by a function having non-void return type was not used	printf	30	8	MISRA12_17.7	17.7 The value returned by a function having non-void return type shall be used			
+    The value returned by a function having non-void return type was not used	printf	32	8	MISRA12_17.7	17.7 The value returned by a function having non-void return type shall be used			
+    The value returned by a function having non-void return type was not used	printf	36	8	MISRA12_17.7	17.7 The value returned by a function having non-void return type shall be used			
+    The value returned by a function having non-void return type was not used	printf	40	8	MISRA12_17.7	17.7 The value returned by a function having non-void return type shall be used			
+    The value returned by a function having non-void return type was not used	printf	63	16	MISRA12_17.7	17.7 The value returned by a function having non-void return type shall be used			
+    time.h used 	stdio.h	1	0	MISRA12_21.10	21.10 The Standard Library time and date functions shall not be used			
+    Memory allocation function of stdlib used	malloc	24	25	MISRA12_21.3	21.3 The memory allocation and deallocation functions of <stdlib.h> shall not be used			
+    stdio.h input/output function printf used in file Train_Movement.c	printf	26	16	MISRA12_21.6	21.6 The Standard Library input/output functions shall not be used			
+    Do not use the functions abort, exit, getenv or system	exit	27	16	MISRA12_21.8	21.8 The library functions abort, exit, getenv and system of <stdlib.h> shall not be used			
+    Do not use the functions abort, exit, getenv or system	exit	67	24	MISRA12_21.8	21.8 The library functions abort, exit, getenv and system of <stdlib.h> shall not be used			
+    Character sequence /* or // used in a comment		45	0	MISRA12_3.1	3.1 The character sequences /* and // shall not be used within a comment			
+    Character sequence /* or // used in a comment		56	0	MISRA12_3.1	3.1 The character sequences /* and // shall not be used within a comment			
+    Lowercase character ""L"" used in literal suffix 0l	Train_Movement.c	69	21	MISRA12_7.3	7.3 The lowercase character L shall not be used in a literal suffix			
+    Lowercase character ""L"" used in literal suffix 0l	Train_Movement.c	78	21	MISRA12_7.3	7.3 The lowercase character L shall not be used in a literal suffix			
+    Declaration or definition is not compatible with another declaration or definition in file Train_Movement.c at 11:5	train_arrives	61	5	MISRA12_8.3	8.3 All declarations of an object or function shall use the same names and type qualifiers			
+    Declaration or definition is not compatible with another declaration or definition in file Train_Movement.c at 13:5	train_leaves	77	5	MISRA12_8.3	8.3 All declarations of an object or function shall use the same names and type qualifiers			
+    Declaration or definition is not compatible with another declaration or definition in file Train_Movement.c at 14:4	checkStatus	50	4	MISRA12_8.3	8.3 All declarations of an object or function shall use the same names and type qualifiers			
+    train_arrives has external linkage but is only used in the translation unit built from Train_Movement.c, so the static keyword should be used.	train_arrives	61	5	MISRA12_8.7	8.7 Functions and objects should not be defined with external linkage if they are referenced in only one translation unit			
+    train_leaves has external linkage but is only used in the translation unit built from Train_Movement.c, so the static keyword should be used.	train_leaves	77	5	MISRA12_8.7	8.7 Functions and objects should not be defined with external linkage if they are referenced in only one translation unit			
+    checkStatus has external linkage but is only used in the translation unit built from Train_Movement.c, so the static keyword should be used.	checkStatus	50	4	MISRA12_8.7	8.7 Functions and objects should not be defined with external linkage if they are referenced in only one translation unit			
+    Violation: File contains invalid dynamic memory statement.	malloc	24	25	MISRA12_DIR_4.12	Directive 4.12 Dynamic memory allocation shall not be used			
+    Basic numerical type ""int"" used	checkStatus	14	4	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	checkStatus	50	4	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used in ""int *""	ptr	14	21	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used in ""int *""	ptr	50	21	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""double"" used	value	51	15	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used in ""int *""	ptr	24	13	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	status_track	31	12	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used in ""const int""	L	11	29	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used in ""const int""	L	61	23	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	l	69	17	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	L	13	22	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	L	77	22	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+    Basic numerical type ""int"" used	l	78	17	MISRA12_DIR_4.6	Directive 4.6 Typedefs that indicate size and signedness should be used in place of the basic numerical types			
+

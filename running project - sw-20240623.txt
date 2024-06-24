@@ -1,0 +1,1209 @@
+                                                                     Page 1
+                         Data Dictionary Summary Report
+===============================================================================
+
+__DARWIN_NULL   (Macro)
+
+a   (Unresolved Parameter)
+   [Axle_Counter.h, 15]
+
+axle_Counter   (Function)
+   [Axle_Counter.h, 9]
+
+AXLE_COUNTER_H   (Macro)
+   [Axle_Counter.h, 2]
+
+c1   (Static Function)
+   [Axle_Counter.c, 70]
+
+c2   (Static Function)
+   [Axle_Counter.c, 75]
+
+c3   (Static Function)
+   [Axle_Counter.c, 80]
+
+check_status   (Function)
+   [Axle_Counter.c, 18]
+
+checkStatus   (Function)
+   [Train_Movement.c, 50]
+
+COUNTED_AXLES   (Global Object)
+   [Axle_Counter.c, 9]
+
+counted_axles   (Local Object)
+   [Axle_Counter.c, 20]
+
+counted_axles   (Parameter)
+   [Axle_Counter.c, 26]
+
+exit   (Function)
+
+f1   (Static Function)
+   [Axle_Counter.c, 85]
+
+f2   (Static Function)
+   [Axle_Counter.c, 90]
+
+f3   (Static Function)
+   [Axle_Counter.c, 95]
+
+f4   (Static Function)
+   [Axle_Counter.c, 100]
+
+first_axle_counter_pushed   (Function)
+   [Axle_Counter.c, 34]
+
+float64_t   (Typedef)
+   [Axle_Counter.h, 7]
+                                                                     Page 2
+                         Data Dictionary Summary Report
+===============================================================================
+
+FREE   (Macro)
+   [Axle_Counter.h, 5]
+
+init_Counter   (Static Function)
+   [Axle_Counter.c, 56]
+
+int32_t   (Typedef)
+
+l   (Local Object)
+   [Train_Movement.c, 79]
+
+L   (Parameter)
+   [Train_Movement.c, 78]
+
+l   (Local Object)
+   [Train_Movement.c, 69]
+
+L   (Parameter)
+   [Train_Movement.c, 61]
+
+main   (Function)
+   [Train_Movement.c, 23]
+
+malloc   (Function)
+
+next_wagon   (Function)
+   [Train_Movement.c, 12]
+
+NO_SAFETY_RISK   (Macro)
+   [Train_Movement.c, 65]
+
+NULL   (Macro)
+
+OCCUPIED   (Macro)
+   [Axle_Counter.h, 6]
+
+printf   (Function)
+
+printinfo   (Static Function)
+   [Axle_Counter.c, 26]
+
+ptr   (Local Object)
+   [Train_Movement.c, 24]
+
+ptr   (Parameter)
+   [Axle_Counter.c, 18]
+
+ptr   (Parameter)
+   [Train_Movement.c, 50]
+
+second_axle_counter_pushed   (Function)
+   [Axle_Counter.c, 42]
+
+sectionP   (Unresolved Parameter)
+   [Axle_Counter.h, 9]
+                                                                     Page 3
+                         Data Dictionary Summary Report
+===============================================================================
+
+sectionP   (Parameter)
+   [Axle_Counter.c, 56]
+
+status   (Parameter)
+   [Axle_Counter.c, 26]
+
+status_track   (Local Object)
+   [Train_Movement.c, 31]
+
+temp   (Local Object)
+   [Axle_Counter.c, 43]
+
+temp   (Local Object)
+   [Axle_Counter.c, 106]
+
+testFunction   (Function)
+   [Axle_Counter.h, 15]
+
+this_is_not_used   (Static Function)
+   [Axle_Counter.c, 105]
+
+total_wagons   (Unresolved Parameter)
+   [Axle_Counter.h, 9]
+
+TRACK_SEGMENT_STATUS   (Global Object)
+   [Axle_Counter.c, 8]
+
+track_state   (Local Object)
+   [Axle_Counter.c, 57]
+
+track_state   (Local Object)
+   [Axle_Counter.c, 59]
+
+track_state   (Local Object)
+   [Axle_Counter.c, 61]
+
+train_arrives   (Function)
+   [Train_Movement.c, 61]
+
+train_leaves   (Function)
+   [Train_Movement.c, 78]
+
+value   (Local Object)
+   [Train_Movement.c, 51]
+                                                                     Page 4
+                              File Contents Report
+===============================================================================
+
+Axle_Counter.c
+  Global Variables
+    COUNTED_AXLES
+    counted_axles
+    temp
+    temp
+    TRACK_SEGMENT_STATUS
+    track_state
+    track_state
+    track_state
+  Local Functions
+    c1
+    c2
+    c3
+    f1
+    f2
+    f3
+    f4
+    init_Counter
+    printinfo
+    this_is_not_used
+  Global Functions
+    check_status
+    first_axle_counter_pushed
+    second_axle_counter_pushed
+
+Axle_Counter.h
+  Types
+    float64_t
+  Global Functions
+    axle_Counter
+    check_status
+    first_axle_counter_pushed
+    second_axle_counter_pushed
+    testFunction
+
+Train_Movement.c
+  Global Variables
+    l
+    l
+    ptr
+    status_track
+    value
+  Global Functions
+    checkStatus
+    main
+    train_arrives
+    train_leaves
+                                                                     Page 5
+                      Program Unit Cross Reference Report
+===============================================================================
+
+axle_Counter   (Function)
+  Declared as: int32_t
+    Declare [Axle_Counter.h, 9]      Axle_Counter.h
+
+c1   (Static Function)
+  Declared as: int32_t
+    Define [Axle_Counter.c, 70]      Axle_Counter.c
+    Call [Axle_Counter.c, 107]       this_is_not_used
+    Call [Axle_Counter.c, 112]       this_is_not_used
+    Pointer [Axle_Counter.c, 118]    this_is_not_used
+    Call [Axle_Counter.c, 120]       this_is_not_used
+
+c2   (Static Function)
+  Declared as: int32_t
+    Define [Axle_Counter.c, 75]      Axle_Counter.c
+    Call [Axle_Counter.c, 109]       this_is_not_used
+    Call [Axle_Counter.c, 112]       this_is_not_used
+    Pointer [Axle_Counter.c, 118]    this_is_not_used
+    Call [Axle_Counter.c, 120]       this_is_not_used
+
+c3   (Static Function)
+  Declared as: int32_t
+    Define [Axle_Counter.c, 80]      Axle_Counter.c
+
+check_status   (Function)
+  Declared as: int32_t
+    Define [Axle_Counter.c, 18]      Axle_Counter.c
+    Declare [Axle_Counter.h, 11]     Axle_Counter.h
+    Call [Train_Movement.c, 51]      checkStatus
+
+checkStatus   (Function)
+  Declared as: int
+    Declare [Train_Movement.c, 14]   Train_Movement.c
+    Define [Train_Movement.c, 50]    Train_Movement.c
+    Call [Train_Movement.c, 31]      main
+    Call [Train_Movement.c, 35]      main
+    Call [Train_Movement.c, 39]      main
+    Call [Train_Movement.c, 62]      train_arrives
+    Call [Train_Movement.c, 66]      train_arrives
+
+exit   (Function)
+  Declared as: void
+    Call [Train_Movement.c, 27]      main
+    Call [Train_Movement.c, 67]      train_arrives
+
+f1   (Static Function)
+  Declared as: int32_t
+    Define [Axle_Counter.c, 85]      Axle_Counter.c
+    Call [Axle_Counter.c, 108]       this_is_not_used
+
+f2   (Static Function)
+  Declared as: int32_t
+    Define [Axle_Counter.c, 90]      Axle_Counter.c
+    Call [Axle_Counter.c, 110]       this_is_not_used
+                                                                     Page 6
+                      Program Unit Cross Reference Report
+===============================================================================
+
+f3   (Static Function)
+  Declared as: int32_t
+    Define [Axle_Counter.c, 95]      Axle_Counter.c
+
+f4   (Static Function)
+  Declared as: int32_t
+    Define [Axle_Counter.c, 100]     Axle_Counter.c
+
+first_axle_counter_pushed   (Function)
+  Declared as: void
+    Define [Axle_Counter.c, 34]      Axle_Counter.c
+    Declare [Axle_Counter.h, 12]     Axle_Counter.h
+    Call [Train_Movement.c, 70]      train_arrives
+
+init_Counter   (Static Function)
+  Declared as: void
+    Define [Axle_Counter.c, 56]      Axle_Counter.c
+
+main   (Function)
+  Declared as: int32_t
+    Define [Train_Movement.c, 23]    Train_Movement.c
+
+malloc   (Function)
+  Declared as: void *
+    Call [Train_Movement.c, 24]      main
+
+next_wagon   (Function)
+  Declared as: void
+    Declare [Train_Movement.c, 12]   Train_Movement.c
+
+printf   (Function)
+  Declared as: int
+    Call [Train_Movement.c, 26]      main
+    Call [Train_Movement.c, 30]      main
+    Call [Train_Movement.c, 32]      main
+    Call [Train_Movement.c, 36]      main
+    Call [Train_Movement.c, 40]      main
+    Call [Train_Movement.c, 63]      train_arrives
+    Call [Axle_Counter.c, 27]        printinfo
+    Call [Axle_Counter.c, 28]        printinfo
+
+printinfo   (Static Function)
+  Declared as: void
+    Declare [Axle_Counter.c, 12]     Axle_Counter.c
+    Define [Axle_Counter.c, 26]      Axle_Counter.c
+    Call [Axle_Counter.c, 21]        check_status
+
+second_axle_counter_pushed   (Function)
+  Declared as: void
+    Define [Axle_Counter.c, 42]      Axle_Counter.c
+    Declare [Axle_Counter.h, 13]     Axle_Counter.h
+    Call [Train_Movement.c, 80]      train_leaves
+
+testFunction   (Function)
+  Declared as: float64_t
+                                                                     Page 7
+                      Program Unit Cross Reference Report
+===============================================================================
+    Declare [Axle_Counter.h, 15]     Axle_Counter.h
+
+this_is_not_used   (Static Function)
+  Declared as: int32_t
+    Define [Axle_Counter.c, 105]     Axle_Counter.c
+
+train_arrives   (Function)
+  Declared as: void
+    Declare [Train_Movement.c, 11]   Train_Movement.c
+    Define [Train_Movement.c, 61]    Train_Movement.c
+    Call [Train_Movement.c, 34]      main
+
+train_leaves   (Function)
+  Declared as: void
+    Declare [Train_Movement.c, 13]   Train_Movement.c
+    Define [Train_Movement.c, 78]    Train_Movement.c
+    Call [Train_Movement.c, 38]      main
+                                                                     Page 8
+                         Object Cross Reference Report
+===============================================================================
+
+a   (Unresolved Parameter)
+  Declared as: float64_t
+    Declare [Axle_Counter.h, 15]     testFunction
+
+COUNTED_AXLES   (Global Object)
+  Declared as: int32_t=0
+    Define [Axle_Counter.c, 9]       Axle_Counter.c
+    Init [Axle_Counter.c, 9]         Axle_Counter.c
+    Use [Axle_Counter.c, 20]         check_status
+    Modify [Axle_Counter.c, 35]      first_axle_counter_pushed
+    Use [Axle_Counter.c, 43]         second_axle_counter_pushed
+    Modify [Axle_Counter.c, 43]      second_axle_counter_pushed
+
+counted_axles   (Local Object)
+  Declared as: int32_t=COUNTED_AXLES
+    Define [Axle_Counter.c, 20]      check_status
+    Init [Axle_Counter.c, 20]        check_status
+    Use [Axle_Counter.c, 21]         check_status
+
+counted_axles   (Parameter)
+  Declared as: int32_t
+    Declare [Axle_Counter.c, 12]     printinfo
+    Define [Axle_Counter.c, 26]      printinfo
+    Use [Axle_Counter.c, 28]         printinfo
+
+l   (Local Object)
+  Declared as: int32_t=0l
+    Define [Train_Movement.c, 79]    train_leaves
+    Init [Train_Movement.c, 79]      train_leaves
+    Use [Train_Movement.c, 79]       train_leaves
+    Use [Train_Movement.c, 79]       train_leaves
+    Modify [Train_Movement.c, 79]    train_leaves
+
+L   (Parameter)
+  Declared as: int32_t
+    Declare [Train_Movement.c, 13]   train_leaves
+    Define [Train_Movement.c, 78]    train_leaves
+    Use [Train_Movement.c, 79]       train_leaves
+
+l   (Local Object)
+  Declared as: int32_t=0l
+    Define [Train_Movement.c, 69]    train_arrives
+    Init [Train_Movement.c, 69]      train_arrives
+    Use [Train_Movement.c, 69]       train_arrives
+    Use [Train_Movement.c, 69]       train_arrives
+    Modify [Train_Movement.c, 69]    train_arrives
+
+L   (Parameter)
+  Declared as: const int32_t
+    Declare [Train_Movement.c, 11]   train_arrives
+    Define [Train_Movement.c, 61]    train_arrives
+    Use [Train_Movement.c, 69]       train_arrives
+
+ptr   (Local Object)
+  Declared as: int32_t *=(int32_t *)malloc(sizeof(int))
+                                                                     Page 9
+                         Object Cross Reference Report
+===============================================================================
+    Define [Train_Movement.c, 24]    main
+    Init [Train_Movement.c, 24]      main
+    Use [Train_Movement.c, 25]       main
+    Use [Train_Movement.c, 31]       main
+    Use [Train_Movement.c, 35]       main
+    Use [Train_Movement.c, 39]       main
+
+ptr   (Parameter)
+  Declared as: int32_t *
+    Define [Axle_Counter.c, 18]      check_status
+    Set [Axle_Counter.c, 19]         check_status
+    Use [Axle_Counter.c, 21]         check_status
+    Declare [Axle_Counter.h, 11]     check_status
+
+ptr   (Parameter)
+  Declared as: int32_t *
+    Declare [Train_Movement.c, 14]   checkStatus
+    Define [Train_Movement.c, 50]    checkStatus
+    Use [Train_Movement.c, 51]       checkStatus
+
+sectionP   (Unresolved Parameter)
+  Declared as: int32_t
+    Declare [Axle_Counter.h, 9]      axle_Counter
+
+sectionP   (Parameter)
+  Declared as: int32_t
+    Define [Axle_Counter.c, 56]      init_Counter
+    Use [Axle_Counter.c, 58]         init_Counter
+    Set [Axle_Counter.c, 63]         init_Counter
+
+status   (Parameter)
+  Declared as: int32_t *
+    Declare [Axle_Counter.c, 12]     printinfo
+    Define [Axle_Counter.c, 26]      printinfo
+    Deref Use [Axle_Counter.c, 27]   printinfo
+
+status_track   (Local Object)
+  Declared as: int32_t=checkStatus(ptr)
+    Define [Train_Movement.c, 31]    main
+    Init [Train_Movement.c, 31]      main
+    Use [Train_Movement.c, 32]       main
+    Set [Train_Movement.c, 35]       main
+    Use [Train_Movement.c, 36]       main
+    Set [Train_Movement.c, 39]       main
+    Use [Train_Movement.c, 40]       main
+
+temp   (Local Object)
+  Declared as: int32_t=COUNTED_AXLES--
+    Define [Axle_Counter.c, 43]      second_axle_counter_pushed
+    Init [Axle_Counter.c, 43]        second_axle_counter_pushed
+    Use [Axle_Counter.c, 44]         second_axle_counter_pushed
+
+temp   (Local Object)
+  Declared as: int32_t=0
+    Define [Axle_Counter.c, 106]     this_is_not_used
+    Init [Axle_Counter.c, 106]       this_is_not_used
+                                                                     Page 10
+                         Object Cross Reference Report
+===============================================================================
+    Set [Axle_Counter.c, 113]        this_is_not_used
+    Set [Axle_Counter.c, 121]        this_is_not_used
+    Return [Axle_Counter.c, 126]     this_is_not_used
+
+total_wagons   (Unresolved Parameter)
+  Declared as: int32_t
+    Declare [Axle_Counter.h, 9]      axle_Counter
+
+TRACK_SEGMENT_STATUS   (Global Object)
+  Declared as: int32_t=FREE
+    Define [Axle_Counter.c, 8]       Axle_Counter.c
+    Init [Axle_Counter.c, 8]         Axle_Counter.c
+    Addr Use [Axle_Counter.c, 19]    check_status
+    Return [Axle_Counter.c, 23]      check_status
+    Set [Axle_Counter.c, 36]         first_axle_counter_pushed
+    Set [Axle_Counter.c, 45]         second_axle_counter_pushed
+    Set [Axle_Counter.c, 47]         second_axle_counter_pushed
+
+track_state   (Local Object)
+  Declared as: int32_t=-1
+    Define [Axle_Counter.c, 57]      init_Counter
+    Init [Axle_Counter.c, 57]        init_Counter
+
+track_state   (Local Object)
+  Declared as: int32_t=OCCUPIED
+    Define [Axle_Counter.c, 59]      init_Counter
+    Init [Axle_Counter.c, 59]        init_Counter
+
+track_state   (Local Object)
+  Declared as: int32_t=FREE
+    Define [Axle_Counter.c, 61]      init_Counter
+    Init [Axle_Counter.c, 61]        init_Counter
+
+value   (Local Object)
+  Declared as: double=check_status(ptr)
+    Define [Train_Movement.c, 51]    checkStatus
+    Init [Train_Movement.c, 51]      checkStatus
+    Return [Train_Movement.c, 53]    checkStatus
+                                                                     Page 11
+                          Type Cross Reference Report
+===============================================================================
+
+float64_t   (Typedef)
+  Declared as: double
+    Define [Axle_Counter.h, 7]       Axle_Counter.h
+    Type [Axle_Counter.h, 15]        testFunction
+    Type [Axle_Counter.h, 15]        a
+
+int32_t   (Typedef)
+  Declared as: int
+    Type [Axle_Counter.h, 9]         axle_Counter
+    Type [Axle_Counter.h, 9]         sectionP
+    Type [Axle_Counter.h, 9]         total_wagons
+    Type [Axle_Counter.h, 11]        check_status
+    Type [Axle_Counter.h, 11]        ptr
+    Type [Train_Movement.c, 50]      checkStatus
+    Cast [Train_Movement.c, 53]      checkStatus
+    Type [Train_Movement.c, 14]      ptr
+    Type [Train_Movement.c, 50]      ptr
+    Type [Train_Movement.c, 23]      main
+    Cast [Train_Movement.c, 24]      main
+    Type [Train_Movement.c, 24]      ptr
+    Type [Train_Movement.c, 31]      status_track
+    Type [Train_Movement.c, 11]      L
+    Type [Train_Movement.c, 61]      L
+    Type [Train_Movement.c, 69]      l
+    Type [Train_Movement.c, 13]      L
+    Type [Train_Movement.c, 78]      L
+    Type [Train_Movement.c, 79]      l
+    Type [Axle_Counter.c, 9]         COUNTED_AXLES
+    Type [Axle_Counter.c, 8]         TRACK_SEGMENT_STATUS
+    Type [Axle_Counter.c, 70]        c1
+    Type [Axle_Counter.c, 75]        c2
+    Type [Axle_Counter.c, 80]        c3
+    Type [Axle_Counter.c, 18]        check_status
+    Type [Axle_Counter.c, 20]        counted_axles
+    Type [Axle_Counter.c, 18]        ptr
+    Type [Axle_Counter.c, 85]        f1
+    Type [Axle_Counter.c, 90]        f2
+    Type [Axle_Counter.c, 95]        f3
+    Type [Axle_Counter.c, 100]       f4
+    Type [Axle_Counter.c, 56]        sectionP
+    Type [Axle_Counter.c, 57]        track_state
+    Type [Axle_Counter.c, 59]        track_state
+    Type [Axle_Counter.c, 61]        track_state
+    Type [Axle_Counter.c, 12]        counted_axles
+    Type [Axle_Counter.c, 26]        counted_axles
+    Type [Axle_Counter.c, 12]        status
+    Type [Axle_Counter.c, 26]        status
+    Type [Axle_Counter.c, 43]        temp
+    Type [Axle_Counter.c, 105]       this_is_not_used
+    Type [Axle_Counter.c, 106]       temp
+                                                                     Page 12
+                          Macro Cross Reference Report
+===============================================================================
+
+__DARWIN_NULL
+  Declared as: ((void *)0)
+    Use [Train_Movement.c, 25]       main
+
+AXLE_COUNTER_H
+    Use [Axle_Counter.h, 1]          Axle_Counter.h
+    Define [Axle_Counter.h, 2]       Axle_Counter.h
+
+FREE
+  Declared as: 0
+    Define [Axle_Counter.h, 5]       Axle_Counter.h
+    Define [Train_Movement.c, 8]     Train_Movement.c
+    Use [Axle_Counter.c, 8]          Axle_Counter.c
+    Use [Axle_Counter.c, 61]         init_Counter
+    Use [Axle_Counter.c, 45]         second_axle_counter_pushed
+
+NO_SAFETY_RISK
+  Declared as: 0
+    Define [Train_Movement.c, 65]    train_arrives
+    Use [Train_Movement.c, 66]       train_arrives
+
+NULL
+  Declared as: __DARWIN_NULL
+    Use [Train_Movement.c, 25]       main
+
+OCCUPIED
+  Declared as: 1
+    Define [Axle_Counter.h, 6]       Axle_Counter.h
+    Define [Train_Movement.c, 9]     Train_Movement.c
+    Use [Train_Movement.c, 62]       train_arrives
+    Use [Axle_Counter.c, 36]         first_axle_counter_pushed
+    Use [Axle_Counter.c, 59]         init_Counter
+    Use [Axle_Counter.c, 47]         second_axle_counter_pushed
+                                                                     Page 13
+                      Include File Cross Reference Report
+===============================================================================
+
+/Users/simonecappabianca/Desktop/INGEGNERIA DEL SOFTWARE/01 - Course presentation and exam modalities/running project - sw-20240623
+
+
+Axle_Counter.h
+    Include [Train_Movement.c, 6]   Train_Movement.c
+    Include [Axle_Counter.c, 2]   Axle_Counter.c
+
+/Applications/Understand.app/Contents/Resources/conf/understand/clang/lib/clang/16/include
+
+
+stdint.h
+    Include [Axle_Counter.h, 3]   Axle_Counter.h
+    Include [Train_Movement.c, 3]   Train_Movement.c
+    Include [Axle_Counter.c, 5]   Axle_Counter.c
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include
+
+
+stdio.h
+    Include [Train_Movement.c, 1]   Train_Movement.c
+    Include [Axle_Counter.c, 4]   Axle_Counter.c
+
+stdlib.h
+    Include [Train_Movement.c, 2]   Train_Movement.c
+    Include [Axle_Counter.c, 3]   Axle_Counter.c
+
+time.h
+    Include [Train_Movement.c, 4]   Train_Movement.c
+                                                                     Page 14
+                         Simple Invocation Tree Report
+===============================================================================
+
+check_status
+| printinfo
+
+checkStatus
+| check_status
+
+main
+| malloc
+| printf
+| exit
+| checkStatus
+| train_arrives
+| train_leaves
+
+printinfo
+| printf
+
+this_is_not_used
+| c1
+| f1
+| c2
+| f2
+
+train_arrives
+| checkStatus
+| printf
+| exit
+| first_axle_counter_pushed
+
+train_leaves
+| second_axle_counter_pushed
+                                                                     Page 15
+                         Program Unit Complexity Report
+===============================================================================
+
+c1
+   Cyclomatic:                        1
+   Modified Cyclomatic:               1
+   Strict Cyclomatic:                 1
+   Essential:                         1
+   Max Nesting:                       0
+   Count Path:                        1
+   Count Path Log:                        0
+
+c2
+   Cyclomatic:                        1
+   Modified Cyclomatic:               1
+   Strict Cyclomatic:                 1
+   Essential:                         1
+   Max Nesting:                       0
+   Count Path:                        1
+   Count Path Log:                        0
+
+c3
+   Cyclomatic:                        1
+   Modified Cyclomatic:               1
+   Strict Cyclomatic:                 1
+   Essential:                         1
+   Max Nesting:                       0
+   Count Path:                        1
+   Count Path Log:                        0
+
+check_status
+   Cyclomatic:                        1
+   Modified Cyclomatic:               1
+   Strict Cyclomatic:                 1
+   Essential:                         1
+   Max Nesting:                       0
+   Count Path:                        1
+   Count Path Log:                        0
+
+checkStatus
+   Cyclomatic:                        1
+   Modified Cyclomatic:               1
+   Strict Cyclomatic:                 1
+   Essential:                         1
+   Max Nesting:                       0
+   Count Path:                        1
+   Count Path Log:                        0
+
+f1
+   Cyclomatic:                        1
+   Modified Cyclomatic:               1
+   Strict Cyclomatic:                 1
+   Essential:                         1
+   Max Nesting:                       0
+   Count Path:                        1
+   Count Path Log:                        0
+
+f2
+   Cyclomatic:                        1
+   Modified Cyclomatic:               1
+   Strict Cyclomatic:                 1
+   Essential:                         1
+   Max Nesting:                       0
+   Count Path:                        1
+   Count Path Log:                        0
+                                                                     Page 16
+                         Program Unit Complexity Report
+===============================================================================
+
+f3
+   Cyclomatic:                        1
+   Modified Cyclomatic:               1
+   Strict Cyclomatic:                 1
+   Essential:                         1
+   Max Nesting:                       0
+   Count Path:                        1
+   Count Path Log:                        0
+
+f4
+   Cyclomatic:                        1
+   Modified Cyclomatic:               1
+   Strict Cyclomatic:                 1
+   Essential:                         1
+   Max Nesting:                       0
+   Count Path:                        1
+   Count Path Log:                        0
+
+first_axle_counter_pushed
+   Cyclomatic:                        1
+   Modified Cyclomatic:               1
+   Strict Cyclomatic:                 1
+   Essential:                         1
+   Max Nesting:                       0
+   Count Path:                        1
+   Count Path Log:                        0
+
+init_Counter
+   Cyclomatic:                        2
+   Modified Cyclomatic:               2
+   Strict Cyclomatic:                 2
+   Essential:                         1
+   Max Nesting:                       1
+   Count Path:                        2
+   Count Path Log:                        0
+
+main
+   Cyclomatic:                        2
+   Modified Cyclomatic:               2
+   Strict Cyclomatic:                 2
+   Essential:                         1
+   Max Nesting:                       1
+   Count Path:                        2
+   Count Path Log:                        0
+
+printinfo
+   Cyclomatic:                        1
+   Modified Cyclomatic:               1
+   Strict Cyclomatic:                 1
+   Essential:                         1
+   Max Nesting:                       0
+   Count Path:                        1
+   Count Path Log:                        0
+
+second_axle_counter_pushed
+   Cyclomatic:                        2
+   Modified Cyclomatic:               2
+   Strict Cyclomatic:                 2
+   Essential:                         1
+   Max Nesting:                       1
+   Count Path:                        2
+   Count Path Log:                        0
+                                                                     Page 17
+                         Program Unit Complexity Report
+===============================================================================
+
+this_is_not_used
+   Cyclomatic:                        8
+   Modified Cyclomatic:               8
+   Strict Cyclomatic:                 8
+   Essential:                         8
+   Max Nesting:                       3
+   Count Path:                        8
+   Count Path Log:                        1
+
+train_arrives
+   Cyclomatic:                        4
+   Modified Cyclomatic:               4
+   Strict Cyclomatic:                 4
+   Essential:                         1
+   Max Nesting:                       2
+   Count Path:                        3
+   Count Path Log:                        0
+
+train_leaves
+   Cyclomatic:                        2
+   Modified Cyclomatic:               2
+   Strict Cyclomatic:                 2
+   Essential:                         1
+   Max Nesting:                       1
+   Count Path:                        2
+   Count Path Log:                        0
+                                                                     Page 18
+                         Project Metrics Summary Report
+===============================================================================
+Classes:                      0
+Files:                        3
+Program Units:               17
+Lines:                      226
+Lines Blank:                 37
+Lines Code:                 111
+Lines Comment:               67
+Lines Inactive:               0
+Executable Statements:       60
+Declarative Statements:      41
+Ratio Comment/Code:        0.60
+                                                                     Page 19
+                              Program Unit Metrics
+===============================================================================
+
+c1 (Static Function)
+   Lines:                   1
+   Comment Lines:           0
+   Blank Lines:             0
+   Code Lines:              1
+   Inactive Lines:          0
+   Executable Code Lines:   1
+   Declarative Code Lines:  1
+   Execution Statements:    1
+   Declaration Statements:  0
+   Ratio Comment/Code:      0.00
+
+c2 (Static Function)
+   Lines:                   1
+   Comment Lines:           0
+   Blank Lines:             0
+   Code Lines:              1
+   Inactive Lines:          0
+   Executable Code Lines:   1
+   Declarative Code Lines:  1
+   Execution Statements:    1
+   Declaration Statements:  0
+   Ratio Comment/Code:      0.00
+
+c3 (Static Function)
+   Lines:                   1
+   Comment Lines:           0
+   Blank Lines:             0
+   Code Lines:              1
+   Inactive Lines:          0
+   Executable Code Lines:   1
+   Declarative Code Lines:  1
+   Execution Statements:    1
+   Declaration Statements:  0
+   Ratio Comment/Code:      0.00
+
+check_status (Function)
+   Lines:                   7
+   Comment Lines:           0
+   Blank Lines:             1
+   Code Lines:              6
+   Inactive Lines:          0
+   Executable Code Lines:   4
+   Declarative Code Lines:  2
+   Execution Statements:    3
+   Declaration Statements:  1
+   Ratio Comment/Code:      0.00
+
+checkStatus (Function)
+   Lines:                   5
+   Comment Lines:           0
+   Blank Lines:             1
+   Code Lines:              4
+   Inactive Lines:          0
+   Executable Code Lines:   2
+   Declarative Code Lines:  2
+   Execution Statements:    2
+   Declaration Statements:  1
+   Ratio Comment/Code:      0.00
+                                                                     Page 20
+                              Program Unit Metrics
+===============================================================================
+
+f1 (Static Function)
+   Lines:                   1
+   Comment Lines:           0
+   Blank Lines:             0
+   Code Lines:              1
+   Inactive Lines:          0
+   Executable Code Lines:   1
+   Declarative Code Lines:  1
+   Execution Statements:    1
+   Declaration Statements:  0
+   Ratio Comment/Code:      0.00
+
+f2 (Static Function)
+   Lines:                   1
+   Comment Lines:           0
+   Blank Lines:             0
+   Code Lines:              1
+   Inactive Lines:          0
+   Executable Code Lines:   1
+   Declarative Code Lines:  1
+   Execution Statements:    1
+   Declaration Statements:  0
+   Ratio Comment/Code:      0.00
+
+f3 (Static Function)
+   Lines:                   1
+   Comment Lines:           0
+   Blank Lines:             0
+   Code Lines:              1
+   Inactive Lines:          0
+   Executable Code Lines:   1
+   Declarative Code Lines:  1
+   Execution Statements:    1
+   Declaration Statements:  0
+   Ratio Comment/Code:      0.00
+
+f4 (Static Function)
+   Lines:                   1
+   Comment Lines:           0
+   Blank Lines:             0
+   Code Lines:              1
+   Inactive Lines:          0
+   Executable Code Lines:   1
+   Declarative Code Lines:  1
+   Execution Statements:    1
+   Declaration Statements:  0
+   Ratio Comment/Code:      0.00
+
+first_axle_counter_pushed (Function)
+   Lines:                   4
+   Comment Lines:           0
+   Blank Lines:             0
+   Code Lines:              4
+   Inactive Lines:          0
+   Executable Code Lines:   2
+   Declarative Code Lines:  1
+   Execution Statements:    2
+   Declaration Statements:  0
+   Ratio Comment/Code:      0.00
+                                                                     Page 21
+                              Program Unit Metrics
+===============================================================================
+
+init_Counter (Static Function)
+   Lines:                   9
+   Comment Lines:           0
+   Blank Lines:             0
+   Code Lines:              9
+   Inactive Lines:          0
+   Executable Code Lines:   4
+   Declarative Code Lines:  2
+   Execution Statements:    2
+   Declaration Statements:  3
+   Ratio Comment/Code:      0.00
+
+main (Function)
+   Lines:                   21
+   Comment Lines:           2
+   Blank Lines:             4
+   Code Lines:              17
+   Inactive Lines:          0
+   Executable Code Lines:   14
+   Declarative Code Lines:  3
+   Execution Statements:    14
+   Declaration Statements:  2
+   Ratio Comment/Code:      0.12
+
+printinfo (Static Function)
+   Lines:                   4
+   Comment Lines:           0
+   Blank Lines:             0
+   Code Lines:              4
+   Inactive Lines:          0
+   Executable Code Lines:   2
+   Declarative Code Lines:  1
+   Execution Statements:    2
+   Declaration Statements:  0
+   Ratio Comment/Code:      0.00
+
+second_axle_counter_pushed (Function)
+   Lines:                   8
+   Comment Lines:           0
+   Blank Lines:             0
+   Code Lines:              8
+   Inactive Lines:          0
+   Executable Code Lines:   5
+   Declarative Code Lines:  2
+   Execution Statements:    3
+   Declaration Statements:  1
+   Ratio Comment/Code:      0.00
+
+this_is_not_used (Static Function)
+   Lines:                   23
+   Comment Lines:           0
+   Blank Lines:             0
+   Code Lines:              23
+   Inactive Lines:          0
+   Executable Code Lines:   17
+   Declarative Code Lines:  2
+   Execution Statements:    14
+   Declaration Statements:  1
+   Ratio Comment/Code:      0.00
+                                                                     Page 22
+                              Program Unit Metrics
+===============================================================================
+
+train_arrives (Function)
+   Lines:                   12
+   Comment Lines:           1
+   Blank Lines:             0
+   Code Lines:              11
+   Inactive Lines:          0
+   Executable Code Lines:   7
+   Declarative Code Lines:  2
+   Execution Statements:    8
+   Declaration Statements:  1
+   Ratio Comment/Code:      0.09
+
+train_leaves (Function)
+   Lines:                   5
+   Comment Lines:           0
+   Blank Lines:             0
+   Code Lines:              5
+   Inactive Lines:          0
+   Executable Code Lines:   2
+   Declarative Code Lines:  2
+   Execution Statements:    3
+   Declaration Statements:  1
+   Ratio Comment/Code:      0.00
+                                                                     Page 23
+                                  File Metrics
+===============================================================================
+
+Axle_Counter.c
+   Lines:                   127
+   Comment Lines:           42
+   Blank Lines:             19
+   Preprocessor Lines:      4
+   Code Lines:              64
+   Inactive Lines:          0
+   Executable Code Lines:   43
+   Declarative Code Lines:  19
+   Execution Statements:    33
+   Declaration Statements:  22
+   Ratio Comment/Code:      0.66
+   Units                    13
+
+Axle_Counter.h
+   Lines:                   17
+   Comment Lines:           2
+   Blank Lines:             5
+   Preprocessor Lines:      6
+   Code Lines:              6
+   Inactive Lines:          0
+   Executable Code Lines:   0
+   Declarative Code Lines:  0
+   Execution Statements:    0
+   Declaration Statements:  6
+   Ratio Comment/Code:      0.33
+   Units                    0
+
+Train_Movement.c
+   Lines:                   82
+   Comment Lines:           23
+   Blank Lines:             13
+   Preprocessor Lines:      8
+   Code Lines:              41
+   Inactive Lines:          0
+   Executable Code Lines:   26
+   Declarative Code Lines:  13
+   Execution Statements:    27
+   Declaration Statements:  13
+   Ratio Comment/Code:      0.56
+   Units                    4
+                                                                     Page 24
+                          File Average Metrics Report
+===============================================================================
+
+Axle_Counter.c
+   Cyclomatic                         2
+   Modified                           2
+   Strict                             2
+   Essential                          1
+   Lines                              5
+   Code                               5
+   Comment                            0
+   Blank                              0
+
+Axle_Counter.h
+   Cyclomatic                         0
+   Modified                           0
+   Strict                             0
+   Essential                          0
+   Lines                              0
+   Code                               0
+   Comment                            0
+   Blank                              0
+
+Train_Movement.c
+   Cyclomatic                         2
+   Modified                           2
+   Strict                             2
+   Essential                          1
+   Lines                              11
+   Code                               9
+   Comment                            1
+   Blank                              1
+                                                                     Page 25
+                              Class Metrics Report
+===============================================================================
+                                                                     Page 26
+                            Class OO Metrics Report
+===============================================================================
+                                                                     Page 27
+                           Uninitialized Items Report
+
+  Def: Items that have not been given an initial value at point of definition.
+===============================================================================
+                                                                     Page 28
+                          Unused Objects and Functions
+
+Def: A variable that is not read from, written to after declaration, 
+or passed to a function, function parameters that are unused in the function, 
+and functions that have no invocations. 
+===============================================================================
+
+Axle_Counter.c                      Line
+    c3 - Static Function              80
+    f3 - Static Function              95
+    f4 - Static Function             100
+    init_Counter - Static Function     56
+    this_is_not_used - Static Function     105
+    track_state - Local Object        57
+    track_state - Local Object        59
+    track_state - Local Object        61
+
+Axle_Counter.h                      Line
+    a - Unresolved Parameter          15
+      Declared in: testFunction()
+    sectionP - Unresolved Parameter     9
+      Declared in: axle_Counter()
+    total_wagons - Unresolved Parameter     9
+      Declared in: axle_Counter()
+
+Train_Movement.c                    Line
+    main - Function                   23
+                                                                     Page 29
+                             Unused Objects Report
+===============================================================================
+
+Axle_Counter.c
+    track_state      57
+    track_state      59
+    track_state      61
+
+Axle_Counter.h
+    a                15
+    sectionP          9
+    total_wagons      9
+                                                                     Page 30
+                              Unused Types Report
+===============================================================================
+                                                                     Page 31
+                          Unused Program Units Report
+===============================================================================
+
+Axle_Counter.c
+    c3                   80
+    f3                   95
+    f4                  100
+    init_Counter         56
+    this_is_not_used    105
+
+Train_Movement.c
+    main                 23
