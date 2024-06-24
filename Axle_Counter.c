@@ -23,8 +23,8 @@ int32_t check_status(void) {
 }
 
 static void printinfo(int32_t status, int32_t counted_axles) {
-    log_value("STATUS: %d\n", status);
-    log_value("COUNTED_AXLES: %d\n", counted_axles);
+    log_value("STATUS: ", status);
+    log_value("COUNTED_AXLES: ", counted_axles);
 }
 
 /*

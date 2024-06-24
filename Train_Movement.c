@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <stdint.h>
 #include "Axle_Counter.h"
 #include "Logger.h"
@@ -7,8 +6,8 @@
 #define OCCUPIED 1
 #define NO_SAFETY_RISK 0
 
-void train_arrives(const int32_t x);
-void train_leaves(int32_t x);
+static int32_t train_arrives(int32_t axles);
+static void train_leaves(int32_t axles);
 
 /*
  * Axle counter system returns the status (FREE/OCCUPIED when check status is invoked
@@ -18,55 +17,59 @@ void train_leaves(int32_t x);
  */
 int32_t main(void)
 {
-    int32_t *pointer = malloc(sizeof(int32_t));
-	if (pointer == NULL)
-	{
-        log_message("Memory not allocated.\n");
-	}
-	else
-	{
-        log_message("project starting\n");
-		int32_t status_track = check_status();
+    int32_t exit_status = 0;
 
-		train_arrives(3); // input is the number of axles
-		status_track = check_status();
+    int32_t local_variable; // Allocate on the stack
+    int32_t *pointer = &local_variable;  // Point to the local variable
 
-		train_leaves(3); // the same number of axlesof when it entered the track segment...
-		status_track = check_status();
-	}
+    log_message("project starting\n");
+    int32_t status_track = check_status();
+
+    exit_status = train_arrives(3); // input is the number of axles
+
+    if(exit_status == 0) {
+        status_track = check_status();
+
+        train_leaves(3); // the same number of axlesof when it entered the track segment...
+        status_track = check_status();
+    }
+
+    return exit_status;
 }
 
 /*
- * A train composed of n wagons arrives to the track segment
+ * A train composed of n axles arrives to the track segment
  * In other words, it reaches the first axle counter
  * weird code
  */
-void train_arrives(const int32_t L)
+static int32_t train_arrives(int32_t axles)
 {
+    int32_t exit_status = 0;
 	if (check_status() == OCCUPIED)
 	{ // if the train arrives, but the track is already occcupied
         log_message("safety risk");
 #ifdef NO_SAFETY_RISK
 		if (check_status() == NO_SAFETY_RISK)
 		{
-			exit(0);
+            exit_status = 1;
 		}
 #endif
-		return;
 	}
-	for (int32_t l = 0L; l < L; l++)
-	{
-		first_axle_counter_pushed();
-	}
+    if (exit_status == 0) {
+        for (int32_t l = 0L; l < axles; l++) {
+            first_axle_counter_pushed();
+        }
+    }
+    return exit_status;
 }
 
 /*
- * A train composed of n wagons leaves the track segment
+ * A train composed of n axles leaves the track segment
  * In other words, it reaches the second axle counter
  */
-void train_leaves(int32_t L)
+static void train_leaves(int32_t axles)
 {
-	for (int32_t l = 0L; l < L; l++)
+	for (int32_t l = 0L; l < axles; l++)
 	{
 		second_axle_counter_pushed();
 	}

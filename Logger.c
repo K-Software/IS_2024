@@ -68,6 +68,7 @@ void log_value(const char_t *format, int32_t value) {
         // Add the format and value to the log buffer
         log_message(temp_buffer);
         log_message(value_str);
+        log_message("\n");
     }
 }
 

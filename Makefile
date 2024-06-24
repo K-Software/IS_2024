@@ -7,6 +7,11 @@ CC = gcc
 # Opzioni di compilazione
 CFLAGS = -Wall -Wextra -std=c11
 
+# Aggiungi l'opzione di compilazione condizionale per DEBUG
+ifdef DEBUG
+CFLAGS += -g -DDEBUG=1
+endif
+
 # File sorgenti
 SRCS = Train_Movement.c Axle_Counter.c Logger.c
 
