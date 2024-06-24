@@ -1,7 +1,7 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
 #include "Axle_Counter.h"
+#include "Logger.h"
 
 #define FREE 0
 #define OCCUPIED 1
@@ -18,15 +18,14 @@ void train_leaves(int32_t x);
  */
 int32_t main(void)
 {
-	int32_t *ptr = malloc(sizeof(int32_t));
-	if (ptr == NULL)
+    int32_t *pointer = malloc(sizeof(int32_t));
+	if (pointer == NULL)
 	{
-		safe_log("Memory not allocated.\n");
+        log_message("Memory not allocated.\n");
 	}
 	else
 	{
-
-		safe_log("project starting\n");
+        log_message("project starting\n");
 		int32_t status_track = check_status();
 
 		train_arrives(3); // input is the number of axles
@@ -46,7 +45,7 @@ void train_arrives(const int32_t L)
 {
 	if (check_status() == OCCUPIED)
 	{ // if the train arrives, but the track is already occcupied
-		safe_log("safety risk");
+        log_message("safety risk");
 #ifdef NO_SAFETY_RISK
 		if (check_status() == NO_SAFETY_RISK)
 		{
