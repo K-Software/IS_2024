@@ -1,99 +1,64 @@
-
-#include "Axle_Counter.h"
-#include <stdlib.h>
-#include <stdio.h>
 #include <stdint.h>
+#include "Axle_Counter.h"
+#include "Logger.h"
+
+
+#define LOG_BUFFER_SIZE 128
 
 static int32_t TRACK_SEGMENT_STATUS = FREE; // initial status of track segment is FREE
-static int32_t COUNTED_AXLES = 0;			// how many axles are in the track segment
-											// i.e., number of wagons in the track segment
+static int32_t COUNTED_AXLES = 0;            // how many axles are in the track segment
+// i.e., number of wagons in the track segment
 
 static void printinfo(int32_t status, int32_t counted_axles);
-
-void safe_log(const char *format)
-{
-	if (fputs(format, stdout) == EOF)
-	{
-		perror("Print error");
-	}
-}
-
-static void safe_log_value(const char *format, int32_t value)
-{
-	char buffer[128]; 
-	int32_t print_result = snprintf(buffer, sizeof(buffer), format, value);
-	if (print_result < 0 || print_result >= sizeof(buffer))
-	{
-		perror("Print error");
-	}
-	else
-	{
-		if (fputs(buffer, stdout) == EOF)
-		{
-			perror("Print error");
-		}
-	}
-}
 
 /*
  * returns track segment STATUS, i.e., FREE or OCCUPIED
  * and the counted wagons
  */
-int32_t check_status(void)
-{
-	int32_t counted_axles = COUNTED_AXLES;
-	printinfo(TRACK_SEGMENT_STATUS, counted_axles);
+int32_t check_status(void) {
+    int32_t counted_axles = COUNTED_AXLES;
+    printinfo(TRACK_SEGMENT_STATUS, counted_axles);
 
-	return TRACK_SEGMENT_STATUS;
+    return TRACK_SEGMENT_STATUS;
 }
 
-static void printinfo(int32_t status, int32_t counted_axles)
-{
-	safe_log_value("STATUS: %d\n", status);
-	safe_log_value("COUNTED_AXLES: %d\n", counted_axles);
+static void printinfo(int32_t status, int32_t counted_axles) {
+    log_value("STATUS: %d\n", status);
+    log_value("COUNTED_AXLES: %d\n", counted_axles);
 }
 
 /*
  * the first axle counter is pushed, when a wagon passes
  */
-void first_axle_counter_pushed(void)
-{
-	COUNTED_AXLES++;
-	TRACK_SEGMENT_STATUS = OCCUPIED;
+void first_axle_counter_pushed(void) {
+    COUNTED_AXLES++;
+    TRACK_SEGMENT_STATUS = OCCUPIED;
 }
 
 /*
  * the second axle counter is pushed, when a wagon passes
  */
-void second_axle_counter_pushed(void)
-{
-	int32_t temp = COUNTED_AXLES;
-	--temp;
-	if (temp == 0)
-	{
-		TRACK_SEGMENT_STATUS = FREE;
-	}
-	else
-	{
-		TRACK_SEGMENT_STATUS = OCCUPIED;
-	}
+void second_axle_counter_pushed(void) {
+    int32_t temp = COUNTED_AXLES;
+    --temp;
+    if (temp == 0) {
+        TRACK_SEGMENT_STATUS = FREE;
+    } else {
+        TRACK_SEGMENT_STATUS = OCCUPIED;
+    }
 }
 
 /*
  * weird code
  * do not question anything below this for the time being
  */
-static void init_Counter(int32_t sectionP)
-{
-	int32_t track_state = -1;
-	if (sectionP > 0)
-	{
-		track_state = OCCUPIED;
-	}
-	else
-	{
-		track_state = FREE;
-	}
+static void init_Counter(int32_t sectionP) {
+    int32_t track_state = -1;
+    if (sectionP > 0) {
+        track_state = OCCUPIED;
+    } else {
+        track_state = FREE;
+    }
 }
 
 /*
@@ -135,45 +100,29 @@ static int32_t f4(void) { return 1; }
 /*
  * Enim diam mollis ad vulputate risus, taciti tempus lectus habitant.
  */
-static int32_t this_is_not_used(void)
-{
-	int32_t temp = 0;
-	if (c1())
-	{
-		f1();
-	}
-	else if (c2())
-	{
-		f2();
-		while (1 == 1)
-		{
-			if (c1() == c2())
-			{
-				temp = 1;
-			}
-			else
-			{
-				break;
-			}
-		}
-	}
-	else if (c1 == c2)
-	{
-		while (1 == 1)
-		{
-			if (c1() == c2())
-			{
-				temp = 1;
-			}
-			else
-			{
-				break;
-			}
-		}
-	}
-	else
-	{
-		// Do nothing.
-	}
-	return temp;
+static int32_t this_is_not_used(void) {
+    int32_t temp = 0;
+    if (c1()) {
+        f1();
+    } else if (c2()) {
+        f2();
+        while (1 == 1) {
+            if (c1() == c2()) {
+                temp = 1;
+            } else {
+                break;
+            }
+        }
+    } else if (c1 == c2) {
+        while (1 == 1) {
+            if (c1() == c2()) {
+                temp = 1;
+            } else {
+                break;
+            }
+        }
+    } else {
+        // Do nothing.
+    }
+    return temp;
 }
